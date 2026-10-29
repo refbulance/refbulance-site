@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061421">
+  <meta name="description" content="REFBULANCE OÜ — troubleshooting and repair services for marine and industrial refrigeration and HVAC equipment.">
+  <title>REFBULANCE OÜ | Marine & Industrial HVAC / Refrigeration</title>
+  <style>
+    :root { --bg:#061421; --navy:#0c2234; --ink:#f3f7fa; --muted:#a9bdcb; --accent:#44d5e9; --line:#294252; }
+    *,*::before,*::after {box-sizing:border-box}
+    html {scroll-behavior:smooth}
+    body {margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+    a{color:inherit;text-decoration:none}
+    a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+    .wrap{width:min(1100px,calc(100% - 40px));margin-inline:auto}
+    header{border-bottom:1px solid var(--line);background:rgba(6,20,33,.96)}
+    .top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:17px 0}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.08em;font-size:20px}
+    .mark{display:grid;place-items:center;width:44px;height:44px;border-radius:12px;border:2px solid var(--accent);color:var(--accent);font-size:26px;transform:rotate(-7deg)}
+    nav{display:flex;gap:22px;color:var(--muted);font-size:14px}
+    nav a:hover{color:white}
+    .hero{padding:100px 0 110px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 82% 24%,#145069 0%,transparent 46%),linear-gradient(150deg,#081b2a,#07101c)}
+    .eyebrow{text-transform:uppercase;letter-spacing:.18em;color:var(--accent);font-size:13px;font-weight:800}
+    h1{max-width:850px;font-size:clamp(38px,6vw,76px);line-height:1.06;letter-spacing:-.045em;margin:18px 0 24px}
+    .accent{color:var(--accent)}
+    .lead{max-width:680px;color:#c2d4df;font-size:clamp(18px,2vw,22px);line-height:1.55}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+    .button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 22px;border-radius:10px;font-weight:750}
+    .primary{color:#06212c;background:var(--accent)}.primary:hover{background:#8eeaf5}
+    .secondary{border:1px solid #557182;color:#e8f5fa}.secondary:hover{background:#193344}
+    section{padding:76px 0}
+    h2{font-size:clamp(28px,4vw,40px);letter-spacing:-.03em;line-height:1.2;margin:0 0 14px}
+    .intro{color:var(--muted);max-width:700px;margin:0 0 28px}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .card{padding:26px;border:1px solid var(--line);background:linear-gradient(155deg,#102c3d,#0a1c2c);border-radius:16px}
+    .card .glyph{color:var(--accent);font-size:26px;margin-bottom:14px}
+    .card h3{font-size:19px;line-height:1.3;margin:0 0 10px}.card p{margin:0;color:var(--muted)}
+    .band{background:#0b1c2a;border-block:1px solid var(--line)}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+    .stepnum{color:var(--accent);font-size:13px;letter-spacing:.12em;font-weight:800}
+    .steps h3{margin:8px 0 6px}.steps p{margin:0;color:var(--muted)}
+    .contact{padding:40px;border:1px solid #295b68;border-radius:20px;background:linear-gradient(120deg,#15374a,#0b2030)}
+    .contact p{color:#c6d8e2;max-width:700px}
+    .contact small{color:var(--muted)}
+    footer{padding:22px 0;border-top:1px solid var(--line);color:#8fa9b9;font-size:14px}
+    @media(max-width:700px){nav{gap:14px;font-size:13px}.brand{font-size:15px}.mark{width:38px;height:38px;font-size:22px}.hero{padding:70px 0 80px}.grid,.steps{grid-template-columns:1fr}.contact{padding:26px}section{padding:56px 0}}
+    @media(max-width:390px){nav a:first-child{display:none}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap top"><a class="brand" href="#top" aria-label="REFBULANCE home"><span class="mark" aria-hidden="true">✳</span> REFBULANCE</a><nav aria-label="Main navigation"><a href="#services">Services</a><a href="#approach">How we work</a><a href="#contact">Contact</a></nav></div></header>
+  <main id="top">
+    <div class="hero"><div class="wrap">
+      <div class="eyebrow">Marine · Industrial · Commercial</div>
+      <h1>When cooling systems fail, <span class="accent">we find the cause.</span></h1>
+      <p class="lead">Technical troubleshooting, diagnostics and repair for refrigeration and HVAC systems — from vessels to industrial and commercial installations.</p>
+      <div class="actions"><a class="button primary" href="#contact">Request service →</a><a class="button secondary" href="#services">Explore services</a></div>
+    </div></div>
+    <section id="services"><div class="wrap"><div class="eyebrow">What we do</div><h2>Focused on practical solutions</h2><p class="intro">Fault finding, system evaluation and hands-on technical service for equipment that needs to work reliably.</p>
+      <div class="grid">
+        <article class="card"><div class="glyph" aria-hidden="true">❄</div><h3>Refrigeration</h3><p>Diagnostics and repair of refrigeration systems, including cooling performance and operating faults.</p></article>
+        <article class="card"><div class="glyph" aria-hidden="true">◉</div><h3>HVAC & Air Conditioning</h3><p>Troubleshooting climate-control, ventilation and air-conditioning equipment.</p></article>
+        <article class="card"><div class="glyph" aria-hidden="true">⚙</div><h3>Marine & Industrial</h3><p>Technical service and fault analysis for shipboard and industrial cooling installations.</p></article>
+      </div>
+    </div></section>
+    <section class="band" id="approach"><div class="wrap"><div class="eyebrow">Our approach</div><h2>Diagnose. Repair. Verify.</h2><div class="steps">
+      <div><div class="stepnum">01 / ASSESS</div><h3>Describe the issue</h3><p>Tell us what equipment is affected and what symptoms you observe.</p></div>
+      <div><div class="stepnum">02 / DIAGNOSE</div><h3>Find the root cause</h3><p>We evaluate the system and identify likely causes of the failure.</p></div>
+      <div><div class="stepnum">03 / RESTORE</div><h3>Get it working</h3><p>Repair or corrective action, followed by operating checks where applicable.</p></div>
+    </div></div></section>
+    <section id="contact"><div class="wrap"><div class="contact"><div class="eyebrow">Contact</div><h2>Have a refrigeration or HVAC problem?</h2><p>Tell us about the equipment, location and fault. Contact details and online booking will be added here after setup.</p><small>REFBULANCE OÜ · Estonia</small></div></div></section>
+  </main>
+  <footer><div class="wrap">© <span id="year">2026</span> REFBULANCE OÜ. All rights reserved.</div></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
